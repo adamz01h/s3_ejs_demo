@@ -28,7 +28,7 @@ fs.readdir(pages, function (err, files) {
 });
 
 app.listen(node_server_port); //start server
-console.log(`NodeJS Server is listening on port ${node_server_port}`); //console log
+console.log(`NodeJS Server is running. Visit http://localhost:${node_server_port}`); //console log
 
 // will also prerender pages for AWS
 let render_page = (app, filename, pageTemplate) => new Promise(

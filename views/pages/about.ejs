@@ -3,22 +3,28 @@
 <head>
   <%- include('../partials/head'); %>
 </head>
-<body class="container">
-
+<body  id="page-top" class="container">
+<div id="nav_section">
+    <%- include('../partials/nav'); %>
+</div>
 <header>
   <%- include('../partials/header'); %>
 </header>
 
-<main>
-  <div class="jumbotron">
-    <h1>This is great</h1>
-    <p>About Page Changed</p>
-  </div>
-</main>
+  <aside class="text-center bg-gradient-primary-to-secondary">
+      <div class="container px-5">
+          <div class="row gx-5 justify-content-center">
+              <div class="col-xl-8">
+                  <div class="h2 fs-1 text-white mb-4">"About Page"</div>
+                  <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
+              </div>
+          </div>
+      </div>
+  </aside>
 
-<footer>
+<div id="footer_section">
   <%- include('../partials/footer'); %>
-</footer>
+</div>
 
 </body>
 </html>
