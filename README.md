@@ -4,4 +4,5 @@ Used  to get started https://www.digitalocean.com/community/tutorials/how-to-use
 ```
 npm install express@4.17.1
 npm install ejs@3.1.6
+node server.js
 ```
